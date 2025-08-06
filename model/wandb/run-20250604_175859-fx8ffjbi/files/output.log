@@ -1,0 +1,85 @@
+✓ Wandb inicializado correctamente
+Usando dispositivo: cuda
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+Memoria total: 8.00 GB
+✓ Albumentations disponible - usando augmentación avanzada
+✓ Weights & Biases disponible
+✓ Seaborn disponible
+Cargando datasets...
+Generating train split: 100%|██████████| 9577/9577 [00:08<00:00, 1115.83 examples/s]
+Generating validation split: 100%|██████████| 2492/2492 [00:02<00:00, 1054.93 examples/s]
+Generating test split: 100%|██████████| 1285/1285 [00:01<00:00, 893.58 examples/s]
+Downloading data: 100%|██████████| 24/24 [05:28<00:00, 13.69s/files]
+Generating train split: 100%|██████████| 29322/29322 [00:18<00:00, 1544.95 examples/s]
+Generating validation split: 100%|██████████| 3660/3660 [00:02<00:00, 1550.60 examples/s]
+Generating test split: 100%|██████████| 3674/3674 [00:02<00:00, 1534.64 examples/s]
+Map: 100%|██████████| 9577/9577 [00:09<00:00, 1043.68 examples/s]
+Map: 100%|██████████| 1285/1285 [00:01<00:00, 1032.84 examples/s]
+Map: 100%|██████████| 29322/29322 [00:30<00:00, 975.41 examples/s] 
+Map: 100%|██████████| 3674/3674 [00:03<00:00, 1166.92 examples/s]
+Casting the dataset: 100%|██████████| 9577/9577 [00:10<00:00, 900.42 examples/s] 
+Casting the dataset: 100%|██████████| 1285/1285 [00:03<00:00, 355.52 examples/s]
+Casting the dataset: 100%|██████████| 29322/29322 [01:40<00:00, 291.47 examples/s]
+Casting the dataset: 100%|██████████| 3674/3674 [00:11<00:00, 320.09 examples/s]
+
+Distribución de clases en entrenamiento:
+Actinic keratoses: 1008
+Basal cell carcinoma: 3145
+Benign keratosis-like-lesions: 3147
+Dermatofibroma: 301
+Melanocytic nevi: 16705
+Melanoma: 4693
+Vascular lesions: 338
+Chickenpox: 900
+Cowpox: 792
+Healthy: 1932
+HFMD: 1368
+Measles: 660
+Monkeypox: 3408
+Squamous cell carcinoma: 502
+Usando transformaciones estándar del processor ViT...
+Map: 100%|██████████| 38899/38899 [08:50<00:00, 73.29 examples/s] 
+Map: 100%|██████████| 4959/4959 [01:07<00:00, 73.89 examples/s] 
+Inicializando modelo mejorado...
+Some weights of ViTForImageClassification were not initialized from the model checkpoint at google/vit-base-patch16-224-in21k and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Iniciando entrenamiento avanzado...
+Total de pasos de entrenamiento: 12155
+  4%|▍         | 500/12165 [53:50<18:33:02,  5.73Traceback (most recent call last):
+{'loss': 2.2656, 'grad_norm': 2.412424087524414, 'learning_rate': 1.9800000000000004e-05, 'epoch': 0.12}
+{'loss': 1.756, 'grad_norm': 5.372697353363037, 'learning_rate': 3.9800000000000005e-05, 'epoch': 0.25}
+{'loss': 1.224, 'grad_norm': 3.6612727642059326, 'learning_rate': 5.96e-05, 'epoch': 0.37}
+{'loss': 0.8029, 'grad_norm': 8.738058090209961, 'learning_rate': 7.960000000000001e-05, 'epoch': 0.49}
+{'loss': 0.6815, 'grad_norm': 3.585573196411133, 'learning_rate': 9.960000000000001e-05, 'epoch': 0.62}
+  File "C:\Users\baldi\PycharmProjects\model_cancer\model_5\Trainer.py", line 497, in main
+{'eval_loss': 0.583021879196167, 'eval_accuracy': 0.39201451905626133, 'eval_f1_weighted': 0.3572472724854719, 'eval_f1_macro': 0.5455043181429009, 'eval_f1_micro': 0.39201451905626133, 'eval_f1_actinic_keratoses': 0.24333719582850522, 'eval_f1_basal_cell_carcinoma': 0.41033434650455924, 'eval_f1_benign_keratosis-like-lesions': 0.3518728717366629, 'eval_f1_chickenpox': 0.7357142857142858, 'eval_f1_cowpox': 0.8962264150943396, 'eval_f1_dermatofibroma': 0.28865979381443296, 'eval_f1_healthy': 0.9397590361445783, 'eval_f1_hfmd': 0.9291784702549575, 'eval_f1_measles': 0.8409090909090909, 'eval_f1_melanocytic_nevi': 0.11003521126760564, 'eval_f1_melanoma': 0.28867505551443373, 'eval_f1_monkeypox': 0.8233731739707836, 'eval_f1_squamous_cell_carcinoma': 0.028985507246376812, 'eval_f1_vascular_lesions': 0.75, 'eval_runtime': 369.0865, 'eval_samples_per_second': 13.436, 'eval_steps_per_second': 0.84, 'epoch': 0.62}
+Error durante el entrenamiento:
+            Some tensors share memory, this will lead to duplicate memory on disk and potential differences when loading them again: [{'vit.classifier.0.weight', 'classifier.0.weight'}, {'vit.classifier.0.bias', 'classifier.0.bias'}, {'vit.classifier.3.weight', 'classifier.3.weight'}, {'classifier.3.bias', 'vit.classifier.3.bias'}, {'classifier.6.weight', 'vit.classifier.6.weight'}, {'classifier.6.bias', 'vit.classifier.6.bias'}].
+            A potential way to correctly save your model is to use `save_model`.
+            More information at https://huggingface.co/docs/safetensors/torch_shared_tensors
+
+    train_result = trainer.train()
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\transformers\trainer.py", line 2240, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\transformers\trainer.py", line 2622, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\transformers\trainer.py", line 3102, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial)
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\transformers\trainer.py", line 3199, in _save_checkpoint
+    self.save_model(output_dir, _internal_call=True)
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\transformers\trainer.py", line 3911, in save_model
+    self._save(output_dir)
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\transformers\trainer.py", line 4009, in _save
+    safetensors.torch.save_file(
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\safetensors\torch.py", line 286, in save_file
+    serialize_file(_flatten(tensors), filename, metadata=metadata)
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\safetensors\torch.py", line 488, in _flatten
+    raise RuntimeError(
+RuntimeError:
+            Some tensors share memory, this will lead to duplicate memory on disk and potential differences when loading them again: [{'vit.classifier.0.weight', 'classifier.0.weight'}, {'vit.classifier.0.bias', 'classifier.0.bias'}, {'vit.classifier.3.weight', 'classifier.3.weight'}, {'classifier.3.bias', 'vit.classifier.3.bias'}, {'classifier.6.weight', 'vit.classifier.6.weight'}, {'classifier.6.bias', 'vit.classifier.6.bias'}].
+            A potential way to correctly save your model is to use `save_model`.
+            More information at https://huggingface.co/docs/safetensors/torch_shared_tensors
+

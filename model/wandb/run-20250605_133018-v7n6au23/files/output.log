@@ -1,0 +1,209 @@
+                                                           
+{'loss': 2.3311, 'grad_norm': 0.7365299463272095, 'learning_rate': 3.96e-06, 'epoch': 0.08}
+{'loss': 2.14, 'grad_norm': 0.7391190528869629, 'learning_rate': 7.960000000000002e-06, 'epoch': 0.16}
+{'loss': 2.1621, 'grad_norm': 1.4463750123977661, 'learning_rate': 1.196e-05, 'epoch': 0.25}
+{'loss': 2.2164, 'grad_norm': 1.2194088697433472, 'learning_rate': 1.5960000000000003e-05, 'epoch': 0.33}
+{'loss': 2.1337, 'grad_norm': 1.943575382232666, 'learning_rate': 1.9960000000000002e-05, 'epoch': 0.41}
+                                                 
+{'eval_loss': 1.8848580121994019, 'eval_accuracy': 0.21617261544666264, 'eval_f1_weighted': 0.15925235660314058, 'eval_f1_macro': 0.2671863213000125, 'eval_f1_micro': 0.21617261544666264, 'eval_f1_actinic_keratoses': 0.13333333333333333, 'eval_f1_basal_cell_carcinoma': 0.16837782340862423, 'eval_f1_benign_keratosis_like_lesions': 0.19414634146341464, 'eval_f1_chickenpox': 0.27624309392265195, 'eval_f1_cowpox': 0.6308724832214765, 'eval_f1_dermatofibroma': 0.0, 'eval_f1_healthy': 0.5177228786251342, 'eval_f1_hfmd': 0.821917808219178, 'eval_f1_measles': 0.23404255319148937, 'eval_f1_melanocytic_nevi': 0.0, 'eval_f1_melanoma': 0.0, 'eval_f1_monkeypox': 0.5598705501618123, 'eval_f1_squamous_cell_carcinoma': 0.0, 'eval_f1_vascular_lesions': 0.20408163265306123, 'eval_runtime': 509.382, 'eval_samples_per_second': 9.735, 'eval_steps_per_second': 0.609, 'epoch': 0.41}
+{'loss': 1.8118, 'grad_norm': 2.1355180740356445, 'learning_rate': 1.9830188679245284e-05, 'epoch': 0.49}
+{'loss': 1.6176, 'grad_norm': 2.896599531173706, 'learning_rate': 1.965866209262436e-05, 'epoch': 0.58}
+{'loss': 1.4251, 'grad_norm': 1.9513733386993408, 'learning_rate': 1.9487135506003433e-05, 'epoch': 0.66}
+{'loss': 1.3115, 'grad_norm': 2.5296239852905273, 'learning_rate': 1.9315608919382507e-05, 'epoch': 0.74}
+{'loss': 1.1725, 'grad_norm': 3.328840970993042, 'learning_rate': 1.914579759862779e-05, 'epoch': 0.82}
+{'eval_loss': 1.0522514581680298, 'eval_accuracy': 0.377293809235733, 'eval_f1_weighted': 0.30275666242492155, 'eval_f1_macro': 0.4902265917846882, 'eval_f1_micro': 0.377293809235733, 'eval_f1_actinic_keratoses': 0.030303030303030304, 'eval_f1_basal_cell_carcinoma': 0.5859872611464968, 'eval_f1_benign_keratosis_like_lesions': 0.3537323470073974, 'eval_f1_chickenpox': 0.6415094339622641, 'eval_f1_cowpox': 0.8571428571428571, 'eval_f1_dermatofibroma': 0.0, 'eval_f1_healthy': 0.9558232931726908, 'eval_f1_hfmd': 0.9447513812154696, 'eval_f1_measles': 0.927710843373494, 'eval_f1_melanocytic_nevi': 0.0, 'eval_f1_melanoma': 0.21977156360771957, 'eval_f1_monkeypox': 0.7908847184986595, 'eval_f1_squamous_cell_carcinoma': 0.0, 'eval_f1_vascular_lesions': 0.5555555555555556, 'eval_runtime': 544.1483, 'eval_samples_per_second': 9.113, 'eval_steps_per_second': 0.57, 'epoch': 0.82}
+{'loss': 1.0574, 'grad_norm': 2.7087740898132324, 'learning_rate': 1.897427101200686e-05, 'epoch': 0.9}
+{'loss': 0.9435, 'grad_norm': 3.0340676307678223, 'learning_rate': 1.8802744425385935e-05, 'epoch': 0.99}
+{'loss': 0.7927, 'grad_norm': 3.0220134258270264, 'learning_rate': 1.863121783876501e-05, 'epoch': 1.07}
+{'loss': 0.6864, 'grad_norm': 1.7405611276626587, 'learning_rate': 1.8459691252144084e-05, 'epoch': 1.15}
+{'loss': 0.712, 'grad_norm': 1.6009784936904907, 'learning_rate': 1.828816466552316e-05, 'epoch': 1.23}
+{'eval_loss': 0.6116297245025635, 'eval_accuracy': 0.3978624722726356, 'eval_f1_weighted': 0.32528903923260893, 'eval_f1_macro': 0.5611527009790326, 'eval_f1_micro': 0.3978624722726356, 'eval_f1_actinic_keratoses': 0.3, 'eval_f1_basal_cell_carcinoma': 0.6185737976782753, 'eval_f1_benign_keratosis_like_lesions': 0.3438648052902278, 'eval_f1_chickenpox': 0.7119741100323624, 'eval_f1_cowpox': 0.9565217391304348, 'eval_f1_dermatofibroma': 0.42592592592592593, 'eval_f1_healthy': 0.991701244813278, 'eval_f1_hfmd': 0.9659090909090909, 'eval_f1_measles': 0.9454545454545454, 'eval_f1_melanocytic_nevi': 0.0, 'eval_f1_melanoma': 0.20915581688366233, 'eval_f1_monkeypox': 0.8537234042553191, 'eval_f1_squamous_cell_carcinoma': 0.0, 'eval_f1_vascular_lesions': 0.5333333333333333, 'eval_runtime': 510.6842, 'eval_samples_per_second': 9.711, 'eval_steps_per_second': 0.607, 'epoch': 1.23}
+{'loss': 0.6259, 'grad_norm': 1.7767510414123535, 'learning_rate': 1.811663807890223e-05, 'epoch': 1.32}
+{'loss': 0.5037, 'grad_norm': 1.1176644563674927, 'learning_rate': 1.7945111492281304e-05, 'epoch': 1.4}
+{'loss': 0.5525, 'grad_norm': 3.5778117179870605, 'learning_rate': 1.777358490566038e-05, 'epoch': 1.48}
+{'loss': 0.5604, 'grad_norm': 2.730036973953247, 'learning_rate': 1.7602058319039453e-05, 'epoch': 1.56}
+{'loss': 0.494, 'grad_norm': 3.5445749759674072, 'learning_rate': 1.7430531732418524e-05, 'epoch': 1.64}
+{'eval_loss': 0.4298079311847687, 'eval_accuracy': 0.41802782819116757, 'eval_f1_weighted': 0.3550760554842798, 'eval_f1_macro': 0.5990863754767972, 'eval_f1_micro': 0.41802782819116757, 'eval_f1_actinic_keratoses': 0.3930635838150289, 'eval_f1_basal_cell_carcinoma': 0.637883008356546, 'eval_f1_benign_keratosis_like_lesions': 0.4129692832764505, 'eval_f1_chickenpox': 0.8650793650793651, 'eval_f1_cowpox': 1.0, 'eval_f1_dermatofibroma': 0.1694915254237288, 'eval_f1_healthy': 0.9918032786885246, 'eval_f1_hfmd': 0.9709302325581395, 'eval_f1_measles': 0.9642857142857143, 'eval_f1_melanocytic_nevi': 0.0009315323707498836, 'eval_f1_melanoma': 0.2654176424668228, 'eval_f1_monkeypox': 0.9474969474969475, 'eval_f1_squamous_cell_carcinoma': 0.0, 'eval_f1_vascular_lesions': 0.7678571428571429, 'eval_runtime': 523.9236, 'eval_samples_per_second': 9.465, 'eval_steps_per_second': 0.592, 'epoch': 1.64}
+{'loss': 0.439, 'grad_norm': 2.970691680908203, 'learning_rate': 1.726072041166381e-05, 'epoch': 1.73}
+{'loss': 0.412, 'grad_norm': 1.9032098054885864, 'learning_rate': 1.708919382504288e-05, 'epoch': 1.81}
+{'loss': 0.4075, 'grad_norm': 2.0777926445007324, 'learning_rate': 1.691766723842196e-05, 'epoch': 1.89}
+{'loss': 0.4487, 'grad_norm': 2.7381246089935303, 'learning_rate': 1.674614065180103e-05, 'epoch': 1.97}
+{'loss': 0.3284, 'grad_norm': 3.7490527629852295, 'learning_rate': 1.6574614065180104e-05, 'epoch': 2.06}
+{'eval_loss': 0.37034371495246887, 'eval_accuracy': 0.4593668078241581, 'eval_f1_weighted': 0.39599438954668637, 'eval_f1_macro': 0.6805317786905444, 'eval_f1_micro': 0.4593668078241581, 'eval_f1_actinic_keratoses': 0.4672489082969432, 'eval_f1_basal_cell_carcinoma': 0.7522012578616353, 'eval_f1_benign_keratosis_like_lesions': 0.4483018867924528, 'eval_f1_chickenpox': 0.9400921658986175, 'eval_f1_cowpox': 0.9846153846153847, 'eval_f1_dermatofibroma': 0.7027027027027027, 'eval_f1_healthy': 0.9979381443298969, 'eval_f1_hfmd': 0.976878612716763, 'eval_f1_measles': 0.9696969696969697, 'eval_f1_melanocytic_nevi': 0.036596523330283626, 'eval_f1_melanoma': 0.267221801665405, 'eval_f1_monkeypox': 0.9744186046511628, 'eval_f1_squamous_cell_carcinoma': 0.14084507042253522, 'eval_f1_vascular_lesions': 0.8686868686868687, 'eval_runtime': 510.0006, 'eval_samples_per_second': 9.724, 'eval_steps_per_second': 0.608, 'epoch': 2.06}
+{'loss': 0.3318, 'grad_norm': 1.5993928909301758, 'learning_rate': 1.640308747855918e-05, 'epoch': 2.14}
+{'loss': 0.3108, 'grad_norm': 1.2316056489944458, 'learning_rate': 1.6231560891938253e-05, 'epoch': 2.22}
+{'loss': 0.2971, 'grad_norm': 2.272437572479248, 'learning_rate': 1.6060034305317324e-05, 'epoch': 2.3}
+{'loss': 0.2968, 'grad_norm': 10.288336753845215, 'learning_rate': 1.58885077186964e-05, 'epoch': 2.38}
+{'loss': 0.3304, 'grad_norm': 4.717113018035889, 'learning_rate': 1.5716981132075473e-05, 'epoch': 2.47}
+{'eval_loss': 0.31849053502082825, 'eval_accuracy': 0.5351885460778383, 'eval_f1_weighted': 0.5171188530378346, 'eval_f1_macro': 0.7053029296365322, 'eval_f1_micro': 0.5351885460778383, 'eval_f1_actinic_keratoses': 0.5238095238095238, 'eval_f1_basal_cell_carcinoma': 0.7473233404710921, 'eval_f1_benign_keratosis_like_lesions': 0.4442748091603053, 'eval_f1_chickenpox': 0.9491525423728814, 'eval_f1_cowpox': 0.9897959183673469, 'eval_f1_dermatofibroma': 0.4316546762589928, 'eval_f1_healthy': 0.9958677685950413, 'eval_f1_hfmd': 0.973293768545994, 'eval_f1_measles': 0.9518072289156626, 'eval_f1_melanocytic_nevi': 0.2968253968253968, 'eval_f1_melanoma': 0.32194244604316546, 'eval_f1_monkeypox': 0.9776207302709069, 'eval_f1_squamous_cell_carcinoma': 0.36764705882352944, 'eval_f1_vascular_lesions': 0.9032258064516129, 'eval_runtime': 514.9051, 'eval_samples_per_second': 9.631, 'eval_steps_per_second': 0.602, 'epoch': 2.47}
+{'loss': 0.2536, 'grad_norm': 2.581526517868042, 'learning_rate': 1.5545454545454547e-05, 'epoch': 2.55}
+{'loss': 0.3099, 'grad_norm': 4.243343830108643, 'learning_rate': 1.537392795883362e-05, 'epoch': 2.63}
+{'loss': 0.2547, 'grad_norm': 8.657812118530273, 'learning_rate': 1.5202401372212694e-05, 'epoch': 2.71}
+{'loss': 0.2289, 'grad_norm': 2.9306089878082275, 'learning_rate': 1.5030874785591767e-05, 'epoch': 2.8}
+{'loss': 0.282, 'grad_norm': 11.317892074584961, 'learning_rate': 1.4859348198970843e-05, 'epoch': 2.88}
+{'eval_loss': 0.3253856897354126, 'eval_accuracy': 0.5676547691066748, 'eval_f1_weighted': 0.5535389568025216, 'eval_f1_macro': 0.7298462545138596, 'eval_f1_micro': 0.5676547691066748, 'eval_f1_actinic_keratoses': 0.5454545454545454, 'eval_f1_basal_cell_carcinoma': 0.7824074074074074, 'eval_f1_benign_keratosis_like_lesions': 0.48072562358276644, 'eval_f1_chickenpox': 0.9288702928870293, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7012987012987013, 'eval_f1_healthy': 0.9958677685950413, 'eval_f1_hfmd': 0.9734513274336283, 'eval_f1_measles': 0.9642857142857143, 'eval_f1_melanocytic_nevi': 0.35049961568024596, 'eval_f1_melanoma': 0.3747747747747748, 'eval_f1_monkeypox': 0.9702734839476813, 'eval_f1_squamous_cell_carcinoma': 0.4028776978417266, 'eval_f1_vascular_lesions': 0.7521367521367521, 'eval_runtime': 610.2551, 'eval_samples_per_second': 8.126, 'eval_steps_per_second': 0.508, 'epoch': 2.88}
+{'loss': 0.2832, 'grad_norm': 4.0676960945129395, 'learning_rate': 1.4687821612349916e-05, 'epoch': 2.96}
+{'loss': 0.1849, 'grad_norm': 0.5939449667930603, 'learning_rate': 1.4516295025728988e-05, 'epoch': 3.04}
+{'loss': 0.1835, 'grad_norm': 1.9571257829666138, 'learning_rate': 1.4344768439108063e-05, 'epoch': 3.13}
+{'loss': 0.1642, 'grad_norm': 3.8292670249938965, 'learning_rate': 1.4173241852487137e-05, 'epoch': 3.21}
+{'loss': 0.1574, 'grad_norm': 1.7438702583312988, 'learning_rate': 1.4001715265866211e-05, 'epoch': 3.29}
+{'eval_loss': 0.31167134642601013, 'eval_accuracy': 0.6410566646501311, 'eval_f1_weighted': 0.6456387979735858, 'eval_f1_macro': 0.7747737552052986, 'eval_f1_micro': 0.6410566646501311, 'eval_f1_actinic_keratoses': 0.5866666666666667, 'eval_f1_basal_cell_carcinoma': 0.8032220943613348, 'eval_f1_benign_keratosis_like_lesions': 0.5441696113074205, 'eval_f1_chickenpox': 0.9732142857142857, 'eval_f1_cowpox': 1.0, 'eval_f1_dermatofibroma': 0.6582278481012658, 'eval_f1_healthy': 0.9958847736625515, 'eval_f1_hfmd': 0.973293768545994, 'eval_f1_measles': 0.963855421686747, 'eval_f1_melanocytic_nevi': 0.5174438687392056, 'eval_f1_melanoma': 0.43656716417910446, 'eval_f1_monkeypox': 0.9848308051341891, 'eval_f1_squamous_cell_carcinoma': 0.45390070921985815, 'eval_f1_vascular_lesions': 0.9555555555555556, 'eval_runtime': 452.4686, 'eval_samples_per_second': 10.96, 'eval_steps_per_second': 0.685, 'epoch': 3.29}
+{'loss': 0.1633, 'grad_norm': 6.070441722869873, 'learning_rate': 1.3830188679245284e-05, 'epoch': 3.37}
+{'loss': 0.1626, 'grad_norm': 0.9794566631317139, 'learning_rate': 1.3658662092624357e-05, 'epoch': 3.45}
+{'loss': 0.1859, 'grad_norm': 0.6439402103424072, 'learning_rate': 1.3487135506003433e-05, 'epoch': 3.54}
+{'loss': 0.1562, 'grad_norm': 11.521166801452637, 'learning_rate': 1.3315608919382506e-05, 'epoch': 3.62}
+{'loss': 0.1776, 'grad_norm': 4.1177592277526855, 'learning_rate': 1.3144082332761578e-05, 'epoch': 3.7}
+{'eval_loss': 0.2714861333370209, 'eval_accuracy': 0.6140350877192983, 'eval_f1_weighted': 0.6099447558748567, 'eval_f1_macro': 0.7586824911869396, 'eval_f1_micro': 0.6140350877192983, 'eval_f1_actinic_keratoses': 0.5706521739130435, 'eval_f1_basal_cell_carcinoma': 0.792814371257485, 'eval_f1_benign_keratosis_like_lesions': 0.46372688477951635, 'eval_f1_chickenpox': 0.9652173913043478, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.6464646464646465, 'eval_f1_healthy': 0.9917695473251029, 'eval_f1_hfmd': 0.9602272727272727, 'eval_f1_measles': 0.9467455621301775, 'eval_f1_melanocytic_nevi': 0.4522178146411828, 'eval_f1_melanoma': 0.45901639344262296, 'eval_f1_monkeypox': 0.973621103117506, 'eval_f1_squamous_cell_carcinoma': 0.4496124031007752, 'eval_f1_vascular_lesions': 0.9545454545454546, 'eval_runtime': 411.6279, 'eval_samples_per_second': 12.047, 'eval_steps_per_second': 0.753, 'epoch': 3.7}
+{'loss': 0.2007, 'grad_norm': 3.506675958633423, 'learning_rate': 1.2972555746140654e-05, 'epoch': 3.78}
+{'loss': 0.1758, 'grad_norm': 1.2634602785110474, 'learning_rate': 1.2801029159519727e-05, 'epoch': 3.87}
+{'loss': 0.178, 'grad_norm': 4.45177698135376, 'learning_rate': 1.26295025728988e-05, 'epoch': 3.95}
+{'loss': 0.1414, 'grad_norm': 0.6296308636665344, 'learning_rate': 1.2457975986277874e-05, 'epoch': 4.03}
+{'loss': 0.1212, 'grad_norm': 8.854960441589355, 'learning_rate': 1.2286449399656949e-05, 'epoch': 4.11}
+{'eval_loss': 0.23930339515209198, 'eval_accuracy': 0.6505343819318411, 'eval_f1_weighted': 0.6552850311559387, 'eval_f1_macro': 0.7888328522571728, 'eval_f1_micro': 0.6505343819318411, 'eval_f1_actinic_keratoses': 0.5856697819314641, 'eval_f1_basal_cell_carcinoma': 0.809102402022756, 'eval_f1_benign_keratosis_like_lesions': 0.6101364522417154, 'eval_f1_chickenpox': 0.9779735682819384, 'eval_f1_cowpox': 0.9847715736040609, 'eval_f1_dermatofibroma': 0.7472527472527473, 'eval_f1_healthy': 0.995850622406639, 'eval_f1_hfmd': 0.9797101449275363, 'eval_f1_measles': 0.975609756097561, 'eval_f1_melanocytic_nevi': 0.5189786059351277, 'eval_f1_melanoma': 0.45166959578207383, 'eval_f1_monkeypox': 0.9871043376318874, 'eval_f1_squamous_cell_carcinoma': 0.48366013071895425, 'eval_f1_vascular_lesions': 0.9361702127659575, 'eval_runtime': 539.9358, 'eval_samples_per_second': 9.184, 'eval_steps_per_second': 0.574, 'epoch': 4.11}
+{'loss': 0.1264, 'grad_norm': 3.171093702316284, 'learning_rate': 1.2114922813036021e-05, 'epoch': 4.19}
+{'loss': 0.1017, 'grad_norm': 4.57572603225708, 'learning_rate': 1.1943396226415096e-05, 'epoch': 4.28}
+{'loss': 0.1134, 'grad_norm': 29.151790618896484, 'learning_rate': 1.1771869639794168e-05, 'epoch': 4.36}
+{'loss': 0.121, 'grad_norm': 2.101591110229492, 'learning_rate': 1.1600343053173243e-05, 'epoch': 4.44}
+{'loss': 0.0717, 'grad_norm': 0.8302592039108276, 'learning_rate': 1.1428816466552317e-05, 'epoch': 4.52}
+{'eval_loss': 0.30752700567245483, 'eval_accuracy': 0.7023593466424682, 'eval_f1_weighted': 0.713710833881864, 'eval_f1_macro': 0.8064230122469888, 'eval_f1_micro': 0.7023593466424682, 'eval_f1_actinic_keratoses': 0.6513157894736842, 'eval_f1_basal_cell_carcinoma': 0.837772397094431, 'eval_f1_benign_keratosis_like_lesions': 0.6543075245365322, 'eval_f1_chickenpox': 0.9736842105263158, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7346938775510204, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9795918367346939, 'eval_f1_measles': 0.9634146341463414, 'eval_f1_melanocytic_nevi': 0.6262305493807558, 'eval_f1_melanoma': 0.4915176524530032, 'eval_f1_monkeypox': 0.9871043376318874, 'eval_f1_squamous_cell_carcinoma': 0.4523809523809524, 'eval_f1_vascular_lesions': 0.945054945054945, 'eval_runtime': 426.8772, 'eval_samples_per_second': 11.617, 'eval_steps_per_second': 0.726, 'epoch': 4.52}
+{'loss': 0.1012, 'grad_norm': 1.1258677244186401, 'learning_rate': 1.125728987993139e-05, 'epoch': 4.61}
+{'loss': 0.12, 'grad_norm': 1.9645124673843384, 'learning_rate': 1.1085763293310463e-05, 'epoch': 4.69}
+{'loss': 0.0933, 'grad_norm': 5.913985729217529, 'learning_rate': 1.0914236706689539e-05, 'epoch': 4.77}
+{'loss': 0.1188, 'grad_norm': 0.9835025668144226, 'learning_rate': 1.074442538593482e-05, 'epoch': 4.85}
+{'loss': 0.0964, 'grad_norm': 7.651121139526367, 'learning_rate': 1.0572898799313896e-05, 'epoch': 4.93}
+{'eval_loss': 0.28416088223457336, 'eval_accuracy': 0.7158701351078847, 'eval_f1_weighted': 0.7222420373854495, 'eval_f1_macro': 0.8225427108605528, 'eval_f1_micro': 0.7158701351078847, 'eval_f1_actinic_keratoses': 0.6644736842105263, 'eval_f1_basal_cell_carcinoma': 0.835214446952596, 'eval_f1_benign_keratosis_like_lesions': 0.6072727272727273, 'eval_f1_chickenpox': 0.9732142857142857, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7532467532467533, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9825581395348837, 'eval_f1_measles': 0.975609756097561, 'eval_f1_melanocytic_nevi': 0.6362773029439696, 'eval_f1_melanoma': 0.5352697095435685, 'eval_f1_monkeypox': 0.985981308411215, 'eval_f1_squamous_cell_carcinoma': 0.6285714285714286, 'eval_f1_vascular_lesions': 0.945054945054945, 'eval_runtime': 433.0972, 'eval_samples_per_second': 11.45, 'eval_steps_per_second': 0.716, 'epoch': 4.93}
+{'loss': 0.1227, 'grad_norm': 0.6845794320106506, 'learning_rate': 1.0401372212692968e-05, 'epoch': 5.02}
+{'loss': 0.053, 'grad_norm': 2.1033003330230713, 'learning_rate': 1.0229845626072041e-05, 'epoch': 5.1}
+{'loss': 0.066, 'grad_norm': 0.45770761370658875, 'learning_rate': 1.0058319039451117e-05, 'epoch': 5.18}
+{'loss': 0.0787, 'grad_norm': 2.0018694400787354, 'learning_rate': 9.88679245283019e-06, 'epoch': 5.26}
+{'loss': 0.0665, 'grad_norm': 3.9938132762908936, 'learning_rate': 9.715265866209264e-06, 'epoch': 5.35}
+{'eval_loss': 0.2944321632385254, 'eval_accuracy': 0.7279693486590039, 'eval_f1_weighted': 0.7382482513865486, 'eval_f1_macro': 0.8228316817639937, 'eval_f1_micro': 0.7279693486590039, 'eval_f1_actinic_keratoses': 0.6065573770491803, 'eval_f1_basal_cell_carcinoma': 0.8598351001177856, 'eval_f1_benign_keratosis_like_lesions': 0.732824427480916, 'eval_f1_chickenpox': 0.9727272727272728, 'eval_f1_cowpox': 0.98989898989899, 'eval_f1_dermatofibroma': 0.7816091954022989, 'eval_f1_healthy': 0.995850622406639, 'eval_f1_hfmd': 0.9797101449275363, 'eval_f1_measles': 0.975609756097561, 'eval_f1_melanocytic_nevi': 0.6554517133956387, 'eval_f1_melanoma': 0.5215759849906192, 'eval_f1_monkeypox': 0.9871944121071012, 'eval_f1_squamous_cell_carcinoma': 0.5344827586206896, 'eval_f1_vascular_lesions': 0.9263157894736842, 'eval_runtime': 435.2896, 'eval_samples_per_second': 11.392, 'eval_steps_per_second': 0.712, 'epoch': 5.35}
+{'loss': 0.0558, 'grad_norm': 15.889554977416992, 'learning_rate': 9.543739279588337e-06, 'epoch': 5.43}
+{'loss': 0.0823, 'grad_norm': 5.8808441162109375, 'learning_rate': 9.372212692967411e-06, 'epoch': 5.51}
+{'loss': 0.0811, 'grad_norm': 0.2998920679092407, 'learning_rate': 9.200686106346484e-06, 'epoch': 5.59}
+{'loss': 0.0876, 'grad_norm': 13.658975601196289, 'learning_rate': 9.029159519725558e-06, 'epoch': 5.67}
+{'loss': 0.0676, 'grad_norm': 0.4991707503795624, 'learning_rate': 8.857632933104631e-06, 'epoch': 5.76}
+{'eval_loss': 0.36451396346092224, 'eval_accuracy': 0.7184916313772938, 'eval_f1_weighted': 0.7295674851099703, 'eval_f1_macro': 0.8220359151108527, 'eval_f1_micro': 0.7184916313772938, 'eval_f1_actinic_keratoses': 0.6097560975609756, 'eval_f1_basal_cell_carcinoma': 0.8685162846803377, 'eval_f1_benign_keratosis_like_lesions': 0.7280606717226435, 'eval_f1_chickenpox': 0.9777777777777777, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7671232876712328, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9824561403508771, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.6371401455235685, 'eval_f1_melanoma': 0.5099099099099099, 'eval_f1_monkeypox': 0.986013986013986, 'eval_f1_squamous_cell_carcinoma': 0.5333333333333333, 'eval_f1_vascular_lesions': 0.946236559139785, 'eval_runtime': 442.0904, 'eval_samples_per_second': 11.217, 'eval_steps_per_second': 0.701, 'epoch': 5.76}
+{'loss': 0.0604, 'grad_norm': 6.071985721588135, 'learning_rate': 8.686106346483705e-06, 'epoch': 5.84}
+{'loss': 0.0539, 'grad_norm': 11.63140869140625, 'learning_rate': 8.51457975986278e-06, 'epoch': 5.92}
+{'loss': 0.0785, 'grad_norm': 0.488282173871994, 'learning_rate': 8.343053173241853e-06, 'epoch': 6.0}
+{'loss': 0.0516, 'grad_norm': 0.35173818469047546, 'learning_rate': 8.171526586620927e-06, 'epoch': 6.09}
+{'loss': 0.0349, 'grad_norm': 0.16528113186359406, 'learning_rate': 8.000000000000001e-06, 'epoch': 6.17}
+{'eval_loss': 0.3609886169433594, 'eval_accuracy': 0.7378503730590845, 'eval_f1_weighted': 0.7462463670511018, 'eval_f1_macro': 0.8248816261848949, 'eval_f1_micro': 0.7378503730590845, 'eval_f1_actinic_keratoses': 0.6147186147186147, 'eval_f1_basal_cell_carcinoma': 0.8829915560916767, 'eval_f1_benign_keratosis_like_lesions': 0.6526315789473685, 'eval_f1_chickenpox': 0.9779735682819384, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7631578947368421, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9825581395348837, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.6748166259168704, 'eval_f1_melanoma': 0.553058024046001, 'eval_f1_monkeypox': 0.9859484777517564, 'eval_f1_squamous_cell_carcinoma': 0.5098039215686274, 'eval_f1_vascular_lesions': 0.9885057471264368, 'eval_runtime': 435.4398, 'eval_samples_per_second': 11.388, 'eval_steps_per_second': 0.712, 'epoch': 6.17}
+{'loss': 0.0519, 'grad_norm': 0.06562430411577225, 'learning_rate': 7.828473413379074e-06, 'epoch': 6.25}
+{'loss': 0.0334, 'grad_norm': 1.0830892324447632, 'learning_rate': 7.656946826758148e-06, 'epoch': 6.33}
+{'loss': 0.0426, 'grad_norm': 2.289062976837158, 'learning_rate': 7.485420240137222e-06, 'epoch': 6.41}
+{'loss': 0.0566, 'grad_norm': 4.1160736083984375, 'learning_rate': 7.3138936535162955e-06, 'epoch': 6.5}
+{'loss': 0.0432, 'grad_norm': 0.5376918911933899, 'learning_rate': 7.142367066895369e-06, 'epoch': 6.58}
+{'eval_loss': 0.2866364121437073, 'eval_accuracy': 0.7471264367816092, 'eval_f1_weighted': 0.7576225883076483, 'eval_f1_macro': 0.8357207045638975, 'eval_f1_micro': 0.7471264367816092, 'eval_f1_actinic_keratoses': 0.6718146718146718, 'eval_f1_basal_cell_carcinoma': 0.8608799048751486, 'eval_f1_benign_keratosis_like_lesions': 0.7583243823845328, 'eval_f1_chickenpox': 0.9823008849557522, 'eval_f1_cowpox': 1.0, 'eval_f1_dermatofibroma': 0.7733333333333333, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9824561403508771, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.6842904892130052, 'eval_f1_melanoma': 0.5402750491159135, 'eval_f1_monkeypox': 0.9883177570093458, 'eval_f1_squamous_cell_carcinoma': 0.5238095238095238, 'eval_f1_vascular_lesions': 0.967032967032967, 'eval_runtime': 432.1336, 'eval_samples_per_second': 11.476, 'eval_steps_per_second': 0.717, 'epoch': 6.58}
+{'loss': 0.0456, 'grad_norm': 0.10996559262275696, 'learning_rate': 6.9708404802744435e-06, 'epoch': 6.66}
+{'loss': 0.0524, 'grad_norm': 1.140177607536316, 'learning_rate': 6.799313893653516e-06, 'epoch': 6.74}
+{'loss': 0.0511, 'grad_norm': 0.5629382133483887, 'learning_rate': 6.6277873070325905e-06, 'epoch': 6.83}
+{'loss': 0.0579, 'grad_norm': 0.2528988718986511, 'learning_rate': 6.456260720411664e-06, 'epoch': 6.91}
+{'loss': 0.0434, 'grad_norm': 0.1695033609867096, 'learning_rate': 6.2847341337907385e-06, 'epoch': 6.99}
+{'eval_loss': 0.2944280207157135, 'eval_accuracy': 0.7445049405122001, 'eval_f1_weighted': 0.7544739167931661, 'eval_f1_macro': 0.8310469783459727, 'eval_f1_micro': 0.7445049405122001, 'eval_f1_actinic_keratoses': 0.6486486486486487, 'eval_f1_basal_cell_carcinoma': 0.8615751789976134, 'eval_f1_benign_keratosis_like_lesions': 0.7610810810810811, 'eval_f1_chickenpox': 0.9606986899563319, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7710843373493976, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9771428571428571, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.6794871794871795, 'eval_f1_melanoma': 0.543245869776482, 'eval_f1_monkeypox': 0.9858156028368794, 'eval_f1_squamous_cell_carcinoma': 0.5166666666666667, 'eval_f1_vascular_lesions': 0.967032967032967, 'eval_runtime': 428.6155, 'eval_samples_per_second': 11.57, 'eval_steps_per_second': 0.723, 'epoch': 6.99}
+{'loss': 0.0316, 'grad_norm': 2.4172186851501465, 'learning_rate': 6.113207547169811e-06, 'epoch': 7.07}
+{'loss': 0.0312, 'grad_norm': 0.11842254549264908, 'learning_rate': 5.941680960548886e-06, 'epoch': 7.15}
+{'loss': 0.0301, 'grad_norm': 2.900413751602173, 'learning_rate': 5.77015437392796e-06, 'epoch': 7.24}
+{'loss': 0.053, 'grad_norm': 7.403676509857178, 'learning_rate': 5.598627787307033e-06, 'epoch': 7.32}
+{'loss': 0.039, 'grad_norm': 0.0965535044670105, 'learning_rate': 5.427101200686107e-06, 'epoch': 7.4}
+{'eval_loss': 0.3668105900287628, 'eval_accuracy': 0.768501714055253, 'eval_f1_weighted': 0.7782849057905916, 'eval_f1_macro': 0.8432237651552681, 'eval_f1_micro': 0.768501714055253, 'eval_f1_actinic_keratoses': 0.6937269372693727, 'eval_f1_basal_cell_carcinoma': 0.8727272727272727, 'eval_f1_benign_keratosis_like_lesions': 0.7621052631578947, 'eval_f1_chickenpox': 0.9821428571428571, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7894736842105263, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9799426934097422, 'eval_f1_measles': 0.9629629629629629, 'eval_f1_melanocytic_nevi': 0.7197170645446508, 'eval_f1_melanoma': 0.5687979539641944, 'eval_f1_monkeypox': 0.9917936694021102, 'eval_f1_squamous_cell_carcinoma': 0.5111111111111111, 'eval_f1_vascular_lesions': 0.9777777777777777, 'eval_runtime': 427.4547, 'eval_samples_per_second': 11.601, 'eval_steps_per_second': 0.725, 'epoch': 7.4}
+{'loss': 0.0416, 'grad_norm': 5.568396091461182, 'learning_rate': 5.255574614065181e-06, 'epoch': 7.48}
+{'loss': 0.0252, 'grad_norm': 0.7296897172927856, 'learning_rate': 5.084048027444254e-06, 'epoch': 7.57}
+{'loss': 0.0487, 'grad_norm': 0.08432616293430328, 'learning_rate': 4.912521440823328e-06, 'epoch': 7.65}
+{'loss': 0.048, 'grad_norm': 4.001658916473389, 'learning_rate': 4.740994854202402e-06, 'epoch': 7.73}
+{'loss': 0.04, 'grad_norm': 2.298692464828491, 'learning_rate': 4.569468267581476e-06, 'epoch': 7.81}
+{'eval_loss': 0.353108674287796, 'eval_accuracy': 0.7654769106674733, 'eval_f1_weighted': 0.7757120722744367, 'eval_f1_macro': 0.8373651145630453, 'eval_f1_micro': 0.7654769106674733, 'eval_f1_actinic_keratoses': 0.6612244897959184, 'eval_f1_basal_cell_carcinoma': 0.8719153936545241, 'eval_f1_benign_keratosis_like_lesions': 0.7736263736263737, 'eval_f1_chickenpox': 0.9777777777777777, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7567567567567568, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9737609329446064, 'eval_f1_measles': 0.9696969696969697, 'eval_f1_melanocytic_nevi': 0.7162763118885266, 'eval_f1_melanoma': 0.5671191553544495, 'eval_f1_monkeypox': 0.9871345029239766, 'eval_f1_squamous_cell_carcinoma': 0.5299145299145299, 'eval_f1_vascular_lesions': 0.945054945054945, 'eval_runtime': 431.9161, 'eval_samples_per_second': 11.481, 'eval_steps_per_second': 0.718, 'epoch': 7.81}
+{'loss': 0.0419, 'grad_norm': 0.1023704931139946, 'learning_rate': 4.397941680960549e-06, 'epoch': 7.89}
+{'loss': 0.0277, 'grad_norm': 2.605720281600952, 'learning_rate': 4.226415094339623e-06, 'epoch': 7.98}
+{'loss': 0.0302, 'grad_norm': 0.06875046342611313, 'learning_rate': 4.054888507718696e-06, 'epoch': 8.06}
+{'loss': 0.0369, 'grad_norm': 0.06833311170339584, 'learning_rate': 3.88336192109777e-06, 'epoch': 8.14}
+{'loss': 0.0396, 'grad_norm': 0.07073190808296204, 'learning_rate': 3.7118353344768442e-06, 'epoch': 8.22}
+{'eval_loss': 0.3090473711490631, 'eval_accuracy': 0.7664851784633999, 'eval_f1_weighted': 0.7774401286890498, 'eval_f1_macro': 0.8420165328278264, 'eval_f1_micro': 0.7664851784633999, 'eval_f1_actinic_keratoses': 0.6901960784313725, 'eval_f1_basal_cell_carcinoma': 0.8678362573099415, 'eval_f1_benign_keratosis_like_lesions': 0.8096330275229358, 'eval_f1_chickenpox': 0.9777777777777777, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7341772151898734, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9739130434782609, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.7138187221396731, 'eval_f1_melanoma': 0.5606736007924715, 'eval_f1_monkeypox': 0.9871345029239766, 'eval_f1_squamous_cell_carcinoma': 0.543859649122807, 'eval_f1_vascular_lesions': 0.967032967032967, 'eval_runtime': 433.6346, 'eval_samples_per_second': 11.436, 'eval_steps_per_second': 0.715, 'epoch': 8.22}
+{'loss': 0.0377, 'grad_norm': 0.12874726951122284, 'learning_rate': 3.5403087478559178e-06, 'epoch': 8.31}
+{'loss': 0.0239, 'grad_norm': 0.2352268248796463, 'learning_rate': 3.3687821612349917e-06, 'epoch': 8.39}
+{'loss': 0.0316, 'grad_norm': 0.1417844146490097, 'learning_rate': 3.1972555746140653e-06, 'epoch': 8.47}
+{'loss': 0.0225, 'grad_norm': 0.17393043637275696, 'learning_rate': 3.025728987993139e-06, 'epoch': 8.55}
+{'loss': 0.0348, 'grad_norm': 0.07717689871788025, 'learning_rate': 2.8542024013722132e-06, 'epoch': 8.63}
+{'eval_loss': 0.34888097643852234, 'eval_accuracy': 0.774752974389998, 'eval_f1_weighted': 0.7849935197318614, 'eval_f1_macro': 0.8379111242890548, 'eval_f1_micro': 0.774752974389998, 'eval_f1_actinic_keratoses': 0.6482213438735178, 'eval_f1_basal_cell_carcinoma': 0.8711217183770883, 'eval_f1_benign_keratosis_like_lesions': 0.780327868852459, 'eval_f1_chickenpox': 0.9777777777777777, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7397260273972602, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9709302325581395, 'eval_f1_measles': 0.9634146341463414, 'eval_f1_melanocytic_nevi': 0.7342882198187665, 'eval_f1_melanoma': 0.5808106721395587, 'eval_f1_monkeypox': 0.9871345029239766, 'eval_f1_squamous_cell_carcinoma': 0.5178571428571429, 'eval_f1_vascular_lesions': 0.9662921348314607, 'eval_runtime': 431.2802, 'eval_samples_per_second': 11.498, 'eval_steps_per_second': 0.719, 'epoch': 8.63}
+{'loss': 0.0363, 'grad_norm': 5.719361782073975, 'learning_rate': 2.6826758147512868e-06, 'epoch': 8.72}
+{'loss': 0.0344, 'grad_norm': 0.20082150399684906, 'learning_rate': 2.5111492281303607e-06, 'epoch': 8.8}
+{'loss': 0.0297, 'grad_norm': 6.794367790222168, 'learning_rate': 2.3396226415094343e-06, 'epoch': 8.88}
+{'loss': 0.03, 'grad_norm': 0.07869444042444229, 'learning_rate': 2.168096054888508e-06, 'epoch': 8.96}
+{'loss': 0.0437, 'grad_norm': 0.15130499005317688, 'learning_rate': 1.9965694682675814e-06, 'epoch': 9.05}
+{'eval_loss': 0.3532243072986603, 'eval_accuracy': 0.7789876991328897, 'eval_f1_weighted': 0.7904281851554142, 'eval_f1_macro': 0.8419838896256419, 'eval_f1_micro': 0.7789876991328897, 'eval_f1_actinic_keratoses': 0.64, 'eval_f1_basal_cell_carcinoma': 0.8803827751196173, 'eval_f1_benign_keratosis_like_lesions': 0.8086560364464692, 'eval_f1_chickenpox': 0.9777777777777777, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7435897435897436, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9767441860465116, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.7410636442894507, 'eval_f1_melanoma': 0.5743380855397149, 'eval_f1_monkeypox': 0.985981308411215, 'eval_f1_squamous_cell_carcinoma': 0.5405405405405406, 'eval_f1_vascular_lesions': 0.9565217391304348, 'eval_runtime': 429.0591, 'eval_samples_per_second': 11.558, 'eval_steps_per_second': 0.723, 'epoch': 9.05}
+{'loss': 0.0216, 'grad_norm': 0.22716781497001648, 'learning_rate': 1.8250428816466554e-06, 'epoch': 9.13}
+{'loss': 0.0259, 'grad_norm': 2.3005282878875732, 'learning_rate': 1.6535162950257291e-06, 'epoch': 9.21}
+{'loss': 0.0303, 'grad_norm': 0.0469537079334259, 'learning_rate': 1.4819897084048029e-06, 'epoch': 9.29}
+{'loss': 0.0187, 'grad_norm': 0.15420213341712952, 'learning_rate': 1.3104631217838768e-06, 'epoch': 9.38}
+{'loss': 0.0321, 'grad_norm': 4.552933216094971, 'learning_rate': 1.1389365351629504e-06, 'epoch': 9.46}
+{'eval_loss': 0.3511790931224823, 'eval_accuracy': 0.7852389594676346, 'eval_f1_weighted': 0.7954474210176937, 'eval_f1_macro': 0.8463663944660124, 'eval_f1_micro': 0.7852389594676346, 'eval_f1_actinic_keratoses': 0.6742424242424242, 'eval_f1_basal_cell_carcinoma': 0.8738095238095238, 'eval_f1_benign_keratosis_like_lesions': 0.799554565701559, 'eval_f1_chickenpox': 0.9777777777777777, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7341772151898734, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9739130434782609, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.7494955318535601, 'eval_f1_melanoma': 0.587434554973822, 'eval_f1_monkeypox': 0.9871345029239766, 'eval_f1_squamous_cell_carcinoma': 0.5294117647058824, 'eval_f1_vascular_lesions': 1.0, 'eval_runtime': 421.3067, 'eval_samples_per_second': 11.771, 'eval_steps_per_second': 0.736, 'epoch': 9.46}
+{'loss': 0.0232, 'grad_norm': 0.10984991490840912, 'learning_rate': 9.674099485420241e-07, 'epoch': 9.54}
+{'loss': 0.0238, 'grad_norm': 0.061025429517030716, 'learning_rate': 7.958833619210979e-07, 'epoch': 9.62}
+{'loss': 0.0317, 'grad_norm': 0.06955926865339279, 'learning_rate': 6.243567753001716e-07, 'epoch': 9.7}
+{'loss': 0.0245, 'grad_norm': 0.18529385328292847, 'learning_rate': 4.5454545454545457e-07, 'epoch': 9.79}
+{'loss': 0.0255, 'grad_norm': 0.040898311883211136, 'learning_rate': 2.8301886792452833e-07, 'epoch': 9.87}
+{'eval_loss': 0.3511131703853607, 'eval_accuracy': 0.7866505343819319, 'eval_f1_weighted': 0.7968135553708828, 'eval_f1_macro': 0.8479267049917217, 'eval_f1_micro': 0.7866505343819319, 'eval_f1_actinic_keratoses': 0.669260700389105, 'eval_f1_basal_cell_carcinoma': 0.8751486325802615, 'eval_f1_benign_keratosis_like_lesions': 0.7937915742793792, 'eval_f1_chickenpox': 0.9777777777777777, 'eval_f1_cowpox': 0.9949238578680203, 'eval_f1_dermatofibroma': 0.7532467532467533, 'eval_f1_healthy': 0.9979296066252588, 'eval_f1_hfmd': 0.9739130434782609, 'eval_f1_measles': 0.9693251533742331, 'eval_f1_melanocytic_nevi': 0.7523727351164797, 'eval_f1_melanoma': 0.590215675960021, 'eval_f1_monkeypox': 0.9871345029239766, 'eval_f1_squamous_cell_carcinoma': 0.5471698113207547, 'eval_f1_vascular_lesions': 0.9887640449438202, 'eval_runtime': 417.4092, 'eval_samples_per_second': 11.88, 'eval_steps_per_second': 0.743, 'epoch': 9.87}
+{'loss': 0.0347, 'grad_norm': 0.29246845841407776, 'learning_rate': 1.1149228130360206e-07, 'epoch': 9.95}
+{'train_runtime': 54911.2343, 'train_samples_per_second': 7.084, 'train_steps_per_second': 0.221, 'train_loss': 0.30096929403708167, 'epoch': 10.0}
+Guardando modelo...
+Realizando evaluación final...
+100%|██████████| 310/310 [06:40<00:00,  1.29s/it]
+
+Reporte de clasificación:
+                               precision    recall  f1-score   support
+
+            Actinic keratoses       0.68      0.66      0.67       130
+         Basal cell carcinoma       0.83      0.92      0.88       400
+Benign keratosis-like-lesions       0.72      0.88      0.79       405
+                   Chickenpox       0.98      0.97      0.98       113
+                       Cowpox       1.00      0.99      0.99        99
+               Dermatofibroma       0.76      0.74      0.75        39
+                      Healthy       1.00      1.00      1.00       242
+                         HFMD       0.97      0.98      0.97       171
+                      Measles       0.99      0.95      0.97        83
+             Melanocytic nevi       0.98      0.61      0.75      2146
+                     Melanoma       0.43      0.94      0.59       597
+                    Monkeypox       0.98      0.99      0.99       426
+      Squamous cell carcinoma       0.69      0.45      0.55        64
+             Vascular lesions       0.98      1.00      0.99        44
+
+                     accuracy                           0.79      4959
+                    macro avg       0.86      0.86      0.85      4959
+                 weighted avg       0.87      0.79      0.80      4959
+
+***** train metrics *****
+  epoch                    =        10.0
+  total_flos               =         0GF
+  train_loss               =       0.301
+  train_runtime            = 15:15:11.23
+  train_samples_per_second =       7.084
+  train_steps_per_second   =       0.221
+***** eval metrics *****
+  epoch                                 =       10.0
+  eval_accuracy                         =     0.7867
+  eval_f1_actinic_keratoses             =     0.6693
+  eval_f1_basal_cell_carcinoma          =     0.8751
+  eval_f1_benign_keratosis_like_lesions =     0.7938
+  eval_f1_chickenpox                    =     0.9778
+  eval_f1_cowpox                        =     0.9949
+  eval_f1_dermatofibroma                =     0.7532
+  eval_f1_healthy                       =     0.9979
+  eval_f1_hfmd                          =     0.9739
+  eval_f1_macro                         =     0.8479
+  eval_f1_measles                       =     0.9693
+  eval_f1_melanocytic_nevi              =     0.7524
+  eval_f1_melanoma                      =     0.5902
+  eval_f1_micro                         =     0.7867
+  eval_f1_monkeypox                     =     0.9871
+  eval_f1_squamous_cell_carcinoma       =     0.5472
+  eval_f1_vascular_lesions              =     0.9888
+  eval_f1_weighted                      =     0.7968
+  eval_loss                             =     0.3511
+  eval_runtime                          = 0:06:52.53
+  eval_samples_per_second               =     12.021
+  eval_steps_per_second                 =      0.751
+
+¡Entrenamiento completado exitosamente!
+F1 Score Weighted: 0.7968
+Accuracy: 0.7867

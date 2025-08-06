@@ -1,0 +1,24 @@
+{"time":"2025-06-05T13:30:19.0909865-05:00","level":"INFO","msg":"stream: starting","core version":"0.20.0","symlink path":"C:\\Users\\baldi\\PycharmProjects\\model_cancer\\model_5\\wandb\\run-20250605_133018-v7n6au23\\logs\\debug-core.log"}
+{"time":"2025-06-05T13:30:19.6060147-05:00","level":"INFO","msg":"stream: created new stream","id":"v7n6au23"}
+{"time":"2025-06-05T13:30:19.6060147-05:00","level":"INFO","msg":"stream: started","id":"v7n6au23"}
+{"time":"2025-06-05T13:30:19.6060147-05:00","level":"INFO","msg":"handler: started","stream_id":"v7n6au23"}
+{"time":"2025-06-05T13:30:19.6060147-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"v7n6au23"}
+{"time":"2025-06-05T13:30:19.6060147-05:00","level":"INFO","msg":"sender: started","stream_id":"v7n6au23"}
+{"time":"2025-06-05T13:30:19.9001666-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-05T21:03:34.1717497-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/baldionkevin8-universidad-industrial-de-santander/huggingface/v7n6au23/file_stream\": read tcp 192.168.1.31:61027->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-06-05T21:03:36.2156601-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/baldionkevin8-universidad-industrial-de-santander/huggingface/v7n6au23/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-05T21:03:40.958071-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/baldionkevin8-universidad-industrial-de-santander/huggingface/v7n6au23/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-05T21:03:44.4277708-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.31:58421->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-06-05T21:03:57.6020322-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/baldionkevin8-universidad-industrial-de-santander/huggingface/v7n6au23/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-05T21:03:57.6020322-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-05T21:04:02.0193899-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-05T21:04:10.156017-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-05T21:04:15.170998-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/baldionkevin8-universidad-industrial-de-santander/huggingface/v7n6au23/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-06T04:59:09.9110613-05:00","level":"INFO","msg":"stream: closing","id":"v7n6au23"}
+{"time":"2025-06-06T04:59:09.9115834-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-06T04:59:09.9120974-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-06T04:59:10.8653236-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-06T04:59:11.0603904-05:00","level":"INFO","msg":"sender: closed","stream_id":"v7n6au23"}
+{"time":"2025-06-06T04:59:11.0603904-05:00","level":"INFO","msg":"handler: closed","stream_id":"v7n6au23"}
+{"time":"2025-06-06T04:59:11.0603904-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v7n6au23"}
+{"time":"2025-06-06T04:59:11.0609186-05:00","level":"INFO","msg":"stream: closed","id":"v7n6au23"}

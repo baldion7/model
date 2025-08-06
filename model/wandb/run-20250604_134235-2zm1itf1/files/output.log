@@ -1,0 +1,47 @@
+✓ Wandb inicializado correctamente
+Usando dispositivo: cuda
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+Memoria total: 8.00 GB
+✓ Albumentations disponible - usando augmentación avanzada
+✓ Weights & Biases disponible
+✓ Seaborn disponible
+Cargando datasets...
+Map: 100%|██████████| 9577/9577 [00:09<00:00, 964.75 examples/s] 
+Map: 100%|██████████| 1285/1285 [00:01<00:00, 912.25 examples/s]
+Map: 100%|██████████| 29322/29322 [00:33<00:00, 887.64 examples/s] 
+Map: 100%|██████████| 3674/3674 [00:03<00:00, 1019.31 examples/s]
+Casting the dataset: 100%|██████████| 9577/9577 [00:29<00:00, 328.59 examples/s]
+Casting the dataset: 100%|██████████| 1285/1285 [00:03<00:00, 325.46 examples/s]
+Casting the dataset: 100%|██████████| 29322/29322 [01:48<00:00, 271.47 examples/s]
+Casting the dataset: 100%|██████████| 3674/3674 [00:13<00:00, 281.99 examples/s]
+
+Distribución de clases en entrenamiento:
+Actinic keratoses: 1008
+Basal cell carcinoma: 3145
+Benign keratosis-like-lesions: 3147
+Dermatofibroma: 301
+Melanocytic nevi: 16705
+Melanoma: 4693
+Vascular lesions: 338
+Chickenpox: 900
+Cowpox: 792
+Healthy: 1932
+HFMD: 1368
+Measles: 660
+Monkeypox: 3408
+Squamous cell carcinoma: 502
+Usando transformaciones estándar del processor ViT...
+Map: 100%|██████████| 38899/38899 [08:27<00:00, 76.60 examples/s] 
+Map: 100%|██████████| 4959/4959 [01:02<00:00, 79.46 examples/s] 
+Inicializando modelo mejorado...
+Some weights of ViTForImageClassification were not initialized from the model checkpoint at google/vit-base-patch16-224-in21k and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Iniciando entrenamiento avanzado...
+Total de pasos de entrenamiento: 12155
+  4%|▍         | 500/12165 [47:33<20:44:07,  6.40s/it]
+{'loss': 2.276, 'grad_norm': 2.503617286682129, 'learning_rate': 1.9800000000000004e-05, 'epoch': 0.12}
+{'loss': 1.771, 'grad_norm': 5.515877723693848, 'learning_rate': 3.9800000000000005e-05, 'epoch': 0.25}
+{'loss': 1.2239, 'grad_norm': 4.194746494293213, 'learning_rate': 5.96e-05, 'epoch': 0.37}
+{'loss': 0.7697, 'grad_norm': 7.669787883758545, 'learning_rate': 7.960000000000001e-05, 'epoch': 0.49}
+{'loss': 0.6378, 'grad_norm': 3.9937572479248047, 'learning_rate': 9.960000000000001e-05, 'epoch': 0.62}
+ 35%|███▌      | 109/310 [02:26<04:08,  1.24s/it]

@@ -1,0 +1,44 @@
+✓ Wandb inicializado correctamente
+Usando dispositivo: cuda
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+Memoria total: 8.00 GB
+✓ Albumentations disponible - usando augmentación avanzada
+✓ Weights & Biases disponible
+✓ Seaborn disponible
+Cargando datasets...
+Generating train split: 100%|██████████| 9577/9577 [00:09<00:00, 1055.58 examples/s]
+Generating validation split: 100%|██████████| 2492/2492 [00:01<00:00, 1266.54 examples/s]
+Generating test split: 100%|██████████| 1285/1285 [00:01<00:00, 1058.95 examples/s]
+Downloading data: 100%|██████████| 24/24 [05:39<00:00, 14.15s/files]
+Generating train split: 100%|██████████| 29322/29322 [00:17<00:00, 1710.29 examples/s]
+Generating validation split: 100%|██████████| 3660/3660 [00:02<00:00, 1751.24 examples/s]
+Generating test split: 100%|██████████| 3674/3674 [00:02<00:00, 1495.99 examples/s]
+Map:   0%|          | 0/9577 [00:00<?, ? examples/s]
+Traceback (most recent call last):
+  File "C:\Users\baldi\PycharmProjects\model_cancer\model_5\Trainer.py", line 579, in <module>
+    main()
+  File "C:\Users\baldi\PycharmProjects\model_cancer\model_5\Trainer.py", line 399, in main
+    train_ds, test_ds = load_and_process_datasets()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\model_5\Trainer.py", line 219, in load_and_process_datasets
+    orig_train = orig_train.map(map_orig).remove_columns(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 557, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 3079, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 3501, in _map_single
+    for i, example in iter_outputs(shard_iterable):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 3475, in iter_outputs
+    yield i, apply_function(example, i, offset=offset)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 3398, in apply_function
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\baldi\PycharmProjects\model_cancer\model_5\Trainer.py", line 215, in map_orig
+    example["labels"] = label2id[dx_to_unified[example["dx"]]]
+                                 ^^^^^^^^^^^^^
+NameError: name 'dx_to_unified' is not defined
